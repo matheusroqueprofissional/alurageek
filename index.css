@@ -1,0 +1,289 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background-color: #ffffff;
+}
+
+.topo-acima-da-imagem{
+    background-color: #ffffff;
+    width: 100%;
+    height: 115px;
+}
+
+.cabeçalho{
+    display: inline-block;
+    flex-direction: row;
+    align-items: center;
+    
+    padding: 24px;
+}
+
+.imagem-alura-geeks{
+    position: relative;
+    display: inline-block;
+    flex-direction: row;
+    top: 32px;
+    left: 152px;
+}
+
+.search{
+    position: relative;
+    color: #A2A2A2;
+    display:inline-block;
+    flex-direction: row;
+    background-color: #F5F5F5;
+    width: 393px;
+    height: 40px;
+    top: 11px;
+    border-radius: 20px;
+    Padding: 8px, 16px, 8px, 16px;
+    text-align: left 16px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin: 10px 6px;
+    left: 162px;
+    
+}
+
+.buscar{
+    position: relative;
+    left: 75px;
+    top: 10px;
+    height: 40px;
+    width: 45px;
+    border-radius: 10px;
+    cursor:pointer;
+    background-color: rgba(255, 255, 255, 0);
+    color: #eaf2fd00;
+    border-color: #ffffff00;
+    
+}
+
+.imagem-lupa{
+    position: relative;
+    left: 115px;
+    top: 19px;
+}
+
+
+.botao-login{
+    position: relative;
+    left: 500px;
+    display: inline-block;
+    flex-direction: row;
+    background-color: #ffff;
+    color:#2A7AE4;
+    border-color: #2A7AE4;
+    width: 182px;
+    height: 51px;
+    cursor: pointer;
+    
+}
+
+.titulo-imagem
+{
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    position:absolute;
+    bottom: 360px;
+    left: 200px;
+    font-weight: 700, bold;
+    font-size: 52px;
+    
+}
+
+.texto-imagem
+{   font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    position: absolute;
+    bottom: 325px;
+    left: 200px;
+    font-size: 22px;
+    
+
+}
+
+.button-ver-consoles
+{
+font-family: 'Raleway', sans-serif;
+font-weight: 400;
+font-size: 16px;
+width: 131px;
+height: 55px;
+padding: 16px;
+gap: 10px;
+background-color: #2A7AE4;
+color: #ffffff;
+position: absolute;
+bottom: 260px;
+left: 200px;
+cursor: pointer;
+}
+
+.botao-view-all{
+    position: relative;
+    left: 1107px;
+    color:#2A7AE4;
+    background-color:#FFFFFF;
+    border-color: #FFFFFF;
+    font-weight: 400;
+    
+}
+.botao-view-all:hover{
+border-bottom: 0.4px solid #f30000;
+}
+
+
+
+
+/*section*/
+.linha-de-produto01-topo{
+    width: 150px;
+    position: relative;
+    left: 100px;
+    
+}
+
+.titulo-produtos
+{ position: relative;
+   font-family: 'Raleway', sans-serif;
+   display: flex;
+   flex-direction: row;
+   font-weight:700, bold;
+   font-size: 32px;
+   top: 10px;
+}
+
+.linha-deproduto01-produtos{
+    display: flex;
+    
+}
+.imagens{
+    position: relative;
+    left: 85px;
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    cursor: pointer;
+    
+}
+.produtos{
+    display: flex;
+    flex-direction: column;
+}
+
+.preço-produto,.texto-produto{
+    position: relative;
+    left: 100px;
+
+}
+
+.preço-produto{
+    font-family: 'Raleway', sans-serif;
+    color:#464646;
+    font-weight: 700px,bold;
+    font-style: normal;
+    font-size: 16px;
+}
+.ver-produto{
+    position: relative;
+    left: 50px;
+    color: #2A7AE4;
+    width: 91px;
+    height: 19px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700, bold;
+    
+    
+}
+
+.box{
+    position: relative;
+    top: 30px;
+    background-color: #EAF2FD;
+}
+
+.links-finais{
+    position: relative;
+    left: 440px;
+    font-weight: 500,normal;
+    color: #464646;
+    line-height: 40px;
+    height: 234px;
+    width: 176px;
+    
+}
+
+.box-image{
+    position: relative;
+    top: 50px;
+    left: 152px;
+}
+
+
+.form{
+    width: 300px;
+    position: relative;
+    left: 728px;
+    bottom: 230px;
+    
+}
+
+.title-fale-conosco{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700,bold;
+    font-size: 16px;
+    line-height: 19px;    
+}
+
+.input-nome{
+    width: 560px;
+    height: 56px;
+    border-radius: 4px;
+    
+}
+
+.text-area{
+    position: relative;
+    top: 16px;
+    width: 560px;
+    height: 82px;
+    border-radius: 4px;
+}
+
+.desenvolvido{
+    position: relative;
+    text-align: center;
+    top: 38px;
+    font-weight: 500,medium;
+}
+
+.submit-text{
+    position:relative;
+    top: 30px;
+    width: 166px;
+    height: 51px;
+    font-family:'Raleway', sans-serif;
+    font-weight: 400,regular;
+    font-style: normal;
+    font-size: 16px;
+    background-color: #2A7AE4;
+    color: white;
+}
+
+footer{
+    position: relative;
+    top: 30px;
+    height: 102px;
+    font-family:'Raleway', sans-serif;
+    font-weight: 500,Medium;
+    font-style: normal;
+    font-size: 16px;
+}
